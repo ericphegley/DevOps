@@ -20,4 +20,9 @@ public class MyController {
 	public String loginUser() {
 		return "Hello Buddy!";
 	}
+
+	@RequestMapping("api/mytest")
+	public String testUser() {
+		return "This new test worked";
+	}
 }
